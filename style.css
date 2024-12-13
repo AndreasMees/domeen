@@ -1,0 +1,49 @@
+/* Üldine stiil kogu lehe jaoks */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff0000; /* Õrn hall taust */
+    color: #000000; /* Tume tekst */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Containeri stiil, et paigutada sisu keskele */
+  .container {
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  /* Pealkirja stiil */
+  h1 {
+    font-weight: 500;
+    color: #9cabbd; /* Sinine toon */
+    margin-bottom: 20px;
+  }
+  
+  /* Teksti stiil */
+  p.lead {
+    font-size: 1.2rem;
+    color: #555; /* Tumeroheline hall tekst */
+  }
+  
+  /* Nupu stiil */
+  .btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+    padding: 15px 25px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+  }
+  
+  /* Hover efekt nuppudele */
+  .btn-primary:hover {
+    background-color: #357ab7;
+    border-color: #357ab7;
+  }
+  
+  /* Tagasi minemise nupp, kui vaja */
+  .btn-secondary {
+    background-color: #ccc;
+    border-color: #ccc; 
+ }
+  
